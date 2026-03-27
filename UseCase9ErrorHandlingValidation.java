@@ -132,7 +132,7 @@ public class UseCase9ErrorHandlingValidation {
 
         service.processBooking(r1, inventory);
         service.processBooking(r2, inventory);
-        service.processBooking(r3, inventory);
+        service.processBooking(r3, inventory);  
         service.processBooking(r4, inventory);
 
         // Final inventory check
