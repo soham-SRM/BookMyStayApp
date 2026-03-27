@@ -158,7 +158,7 @@ public class UseCase6RoomAllocationService {
         queue.addRequest(new Reservation("Charlie", "Double", 1));
 
         // Process bookings
-        BookingService service = new BookingService();
+        BookingService service = new BookingService(); 
         service.processBookings(queue, inventory);
 
         // Show results
